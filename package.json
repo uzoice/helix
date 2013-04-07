@@ -1,0 +1,24 @@
+{
+  "name": "helix",
+  "version": "0.0.0",
+  "description": "content grub server",
+  "main": "app.js",
+  "scripts": {
+    "start": "app.js",
+    "test": "nodeunit tests/test_*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/uzoice/helix.git"
+  },
+  "keywords": [
+    "helix"],
+  "author": "uzoice",
+  "license": "BSD",
+  "dependencies": {
+    "mongodb": "*",
+    "mysql": "*",
+    "underscore": "*",
+    "nodeunit": "*"
+  }
+}
